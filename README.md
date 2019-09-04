@@ -13,7 +13,7 @@ Install:
 1. Copy "userparameter_apcupsd.conf" on apcupsd server to Zabbix agent userparameter config directory.
 2. Copy "dfy_split.pl" to apcupsd server /usr/bin/. If use other directory, then please modify the path in userparameter_apcupsd.conf.
 3. Load the "apcupsd_template.xml" in Zabbix server and assign it to apcupsd server.
-4. Enjoy! And add custom triggers, graphs.
+4. Enjoy! And add custom triggers, graphs as needed.
 
 Tested environment:
 Centos7, Zabbix 4.2
