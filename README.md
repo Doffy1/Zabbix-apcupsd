@@ -7,7 +7,7 @@ Details of operation:
 1. The "query schedule" item send a request to apcupsd.query agent key.
 2. The agent run the assigned key command (dfy_split.pl) with given parameters.
 3. The command script get all apcupsd status values, format them for the zabbix_sender and send.
-4. The Zabbix server receives the values and work with defined trapper items. Not defined items discarded.
+4. The Zabbix server receives the values and work with defined trapper items. Items not defined discarded.
 
 Install:
 1. Copy "userparameter_apcupsd.conf" on apcupsd server to Zabbix agent userparameter config directory.
