@@ -3,7 +3,7 @@ Monitoring apcupsd with Zabbix.
 
 Collect informations from apcupsd with one query and many answers to trapper items and use Zabbix scheduler.
 
-Details of operation:
+<b>Details of operation:</b>
 1. The "query schedule" item send a request to apcupsd.query agent key.
 2. The agent run the assigned key command (dfy_split.pl) with given parameters.
 3. The command script get all apcupsd status values, format them for the zabbix_sender and send.
