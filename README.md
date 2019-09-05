@@ -1,4 +1,4 @@
-# apcupsd
+# Zabbix-apcupsd
 Monitoring apcupsd with Zabbix.
 
 Collect informations from apcupsd with one query and many answers to trapper items and use Zabbix scheduler.
