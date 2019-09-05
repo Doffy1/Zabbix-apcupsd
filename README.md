@@ -15,7 +15,7 @@ Collect informations from apcupsd with one query and many answers to trapper ite
 3. Load the "apcupsd_template.xml" in Zabbix server and assign it to apcupsd server.
 4. Enjoy! And add custom triggers, graphs as needed.
 
-<b>Tested environment:</b>
+<b>Tested environment:</b><br>
 Centos7, Zabbix 4.2
 
 In my case the apcupsd running on Zabbix server, so for sending datas and item allowed host used the "localhost". 
